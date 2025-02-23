@@ -87,13 +87,14 @@ li {
 .carousel {
     display: flex;
     transition: transform 0.5s ease;
+    max-width: 1000px;
 }
 
 .carousel-item {
     min-width: 100%;
     box-sizing: border-box;
     text-align: center;
-    max-width: 1500px;
+    max-width: 1000px;
 }
 
 .reporte-img {
